@@ -12,3 +12,10 @@ search for all the papers and the details of the papers which are assosiated wit
 Save to CSV just take the file name and create a csv file for the data
 
 
+This project required me to use poetry as i had not used any package that need not to be install seperately if we require than we can use
+
+poetry init 
+poetry add (package names)
+poetry install
+
+
