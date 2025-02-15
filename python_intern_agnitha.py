@@ -55,7 +55,7 @@ def save_to_csv(papers: List[Dict[str, Any]], filename: str) -> None:
 
 def main():
     parser = argparse.ArgumentParser(description="Fetch research papers from PubMed.")
-    parser.add_argument("query", type=str, help="Search query for PubMed.")
+    parser.add_argument("query", type=str, help="Search query for PubMed.", default="Physics")
     parser.add_argument("-f", "--file", type=str, help="Output CSV file name.", default="output.csv")
     # parser.add_argument("-h", "--help", action="help", help="Display usage instructions.")
     args = parser.parse_args()
